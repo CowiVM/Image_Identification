@@ -1,10 +1,10 @@
 body {
-    background-color: #F5DBDA;
+    background-color: crimson;
     font-family: 'Special Elite', cursive;
 }
 
 .header_div {
-    background-color: white;
+    background-color: wheat;
     color: red;
 }
 
@@ -14,29 +14,56 @@ body {
 
 .main_div {
     padding: 10px;
-    border: 3px solid white;
-    background-color: #ffd2c7;
+    border: 3px solid wheat;
+    background-color: orangered;
     margin-top: 15px;
 }
 
 .main_div label {
-    background-color: white;
+    background-color: wheat;
     width: 310px;
     padding: 10px;
-    box-shadow: 5px 5px 18px white;
+    box-shadow: 5px 5px 18px wheat;
 }
 
 #camera,
 #result {
-    border: solid 2px white;
+    border: solid 2px wheat;
     width: 310px;
     height: 300px;
-    box-shadow: 5px 5px 18px white;
+    box-shadow: 5px 5px 18px wheat;
 }
 
 .main_div button {
     font-size: 16px;
     width: 310px;
     border: 1px solid;
-    box-shadow: 5px 5px 18px white;
+    box-shadow: 5px 5px 18px wheat;
+}
+
+.footer_div {
+    margin-bottom: 50px;
+}
+
+.footer_div h4 {
+    background-color: wheat;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 18px wheat;
+}
+
+.footer_div img {
+    width: 70px;
+}
+
+.copy_right_footer {
+    font-family: 'Satisfy', cursive;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    line-height: 3;
+    background-color: lightblue;
+    text-align: center;
+    color: teal;
+    font-size: x-large;
 }
